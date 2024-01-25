@@ -1,0 +1,93 @@
+#root {
+ width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+  height: 100vh;
+  max-width: 746px;  
+}
+
+@media (max-width: 745px) {
+  #root {
+    width: 80%;
+    padding: 1rem;
+  }
+  section {
+    flex-direction: column;
+  }
+  .image {
+    width: 100%; 
+  }
+
+  .detail {
+    width: 100%; 
+  }
+}
+
+.logo {
+  height: 2em;
+  padding-right: 8px;
+  color: rgb(218, 201, 201);
+}
+
+.card {
+  padding: 2em;
+}
+.navbar{
+  background-color: rgb(228, 74, 74);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 50px;
+  
+}
+.img1{
+  width: 100%;
+}
+section{
+  display: flex;
+  padding: 2%;
+  margin: 2%;
+width: 100%;
+}
+.image{
+  width: 40%;  
+  border-radius: 10px;
+
+}
+.detail{
+  margin: 1.5%;
+  padding: 1.5%;
+  width: 50%;
+}
+
+.location-icon{
+  color: red;
+  font-size: 1.3rem;
+}
+.location-name{
+  font-size: 1.2em;
+  font-family: 'Inter', sans-serif;
+}
+.location-map{
+  text-decoration: underline;
+  color: rgb(139, 133, 133);
+  padding-left: 0.6rem;
+  font-size: medium;
+}
+h1{
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6em;
+}
+.date{
+  display: flex;
+  font-family: 'Inter', sans-serif;
+font-family: 'Mukta', sans-serif;
+}
+.information{
+  display: flex;
+  justify-content:flex-start
+}
+
